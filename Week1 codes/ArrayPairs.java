@@ -11,7 +11,7 @@ public class ArrayPairs {
     }
 
     public static void main(String[] args) {
-        int[] arr = {1, 2, 3};
+        int[] arr = { 1, 2, 3 };
         printAllPairs(arr);
     }
 }

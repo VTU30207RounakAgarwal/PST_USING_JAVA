@@ -16,7 +16,7 @@ public class BinarySearchIterative {
             // If target is greater, ignore the left half
             if (arr[mid] < target) {
                 low = mid + 1;
-            } 
+            }
             // If target is smaller, ignore the right half
             else {
                 high = mid - 1;
@@ -28,11 +28,11 @@ public class BinarySearchIterative {
     }
 
     public static void main(String[] args) {
-        int[] sortedArray = {2, 5, 8, 12, 16, 23, 38, 56, 72, 91};
+        int[] sortedArray = { 2, 5, 8, 12, 16, 23, 38, 56, 72, 91 };
         int target = 23;
-        
+
         int result = binarySearch(sortedArray, target);
-        
+
         if (result == -1) {
             System.out.println("Element not present in the array.");
         } else {
